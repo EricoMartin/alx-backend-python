@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 '''Task 12's module.
 '''
@@ -13,7 +12,6 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
         for i in range(int(factor))
     ]
     return zoomed_in
-
 
 array = (12, 72, 91)
 
